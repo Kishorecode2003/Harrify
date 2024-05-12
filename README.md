@@ -2,12 +2,6 @@
 
 Harrify is a Spotify clone created specifically for fans of the renowned Indian music composer Harris Jeyaraj. It aims to provide a seamless and enjoyable listening experience for users who love his music.
 
-## Screenshots
-
-![Screenshot 1]("screenshots/screenshot1.png")
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3]("Screenshot 3.png")
-
 ## Installation
 
 To run Harrify locally, follow these steps:
