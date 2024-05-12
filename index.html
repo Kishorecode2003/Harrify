@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Harrify - Music Player</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="left-banner">
+            <img class="left-img" alt="left-banner-img">
+            <div class="heading">
+                <h1></h1>
+            <p></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-section">
+
+        <div class="controls" onclick="playaudio()" id="play-pause"><img  class="play-button"src="images/play-button.svg" alt="play-image"></div>
+
+        <audio id="song"></audio>
+
+        <table>
+            <thead>
+                <th class="song-number">#</th>
+                <th class="song-title">Title</th>
+                <th class="song-artist">Artist</th>
+                <th class="song-duration">Duration</th>
+            </thead>
+            <tr id="song1" onclick="playAll(1)">
+                <td>1</td>
+                <td>Ava Enna</td>
+                <td>Harris Jayaraj</td>
+                <td>05:20</td>
+              </tr>
+              <tr id="song2" onclick="playAll(2)">
+                <td>2</td>
+                <td>Mun Andhi</td>
+                <td>Harris Jayaraj</td>
+                <td>06:14</td>
+              </tr>
+              <tr id="song3" onclick="playAll(3)">
+                <td>3</td>
+                <td>Manjal Veyil</td>
+                <td>Harris Jayaraj</td>
+                <td>05:54</td>
+              </tr>
+              <tr id="song4" onclick="playAll(4)">
+                <td>4</td>
+                <td>Oru Manam</td>
+                <td>Harris Jayaraj</td>
+                <td>05:40</td>
+              </tr>
+              <tr id="song5" onclick="playAll(5)">
+                <td>5</td>
+                <td>Venaam Machan</td>
+                <td>Harris Jayaraj</td>
+                <td>05:12</td>
+              </tr>
+              <tr id="song6" onclick="playAll(6)">
+                <td>6</td>
+                <td>Ennamo Yeadho</td>
+                <td>Harris Jayaraj</td>
+                <td>05:33</td>
+              </tr>
+              <tr id="song7" onclick="playAll(7)">
+                <td>7</td>
+                <td>Unakkul Naane</td>
+                <td>Harris Jayaraj</td>
+                <td>03:10</td>
+              </tr>
+              <tr id="song8" onclick="playAll(8)">
+                <td>8</td>
+                <td>Vaarayo Vaarayo </td>
+                <td>Harris Jayaraj</td>
+                <td>05:16</td>
+              </tr>
+              <tr id="song9" onclick="playAll(9)">
+                <td>9</td>
+                <td>Nenjukkul Peidhidum</td>
+                <td>Harris Jayaraj</td>
+                <td>06:11</td>
+              </tr>
+              <tr id="song10" onclick="playAll(10)">
+                <td>10</td>
+                <td>Mazhai Vara Pogudhae</td>
+                <td>Harris Jayaraj</td>
+                <td>05:42</td>
+              </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
