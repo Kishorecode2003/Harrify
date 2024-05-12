@@ -4,7 +4,7 @@ Harrify is a Spotify clone created specifically for fans of the renowned Indian 
 
 ## Screenshots
 
-![Screenshot 1]("C:\Users\kisho\OneDrive\Pictures\Screenshots\Screenshot 2024-05-12 163113.png")
+![Screenshot 1]("screenshots/screenshot1.png")
 ![Screenshot 2](screenshots/screenshot2.png)
 ![Screenshot 3](screenshots/screenshot3.png)
 
